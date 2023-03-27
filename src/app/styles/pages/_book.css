@@ -1,0 +1,10 @@
+.book{
+    height: 101vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.book__content{
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+.form__input {
+    position: relative;
+    margin-right: 15px;
+}
+
+.form__input-input {
+    border: none;
+    align-items: center;
+    margin: auto 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 310px;
+    height: 25px;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+.form__input-label {
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    font-size: 20px; transition: .3s;
+
+}
+
+#category {
+    margin-right: 15px;
+} 
+
+#category, #sort{
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+} 
+
+@media screen and (max-width: 850px) {
+    .form__input-input {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .form__input {
+        margin-bottom: 15px;
+    }
+}
+

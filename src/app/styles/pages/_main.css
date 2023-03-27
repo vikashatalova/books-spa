@@ -1,0 +1,48 @@
+.main{
+    height: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-lightbiege) ;
+}
+
+.main__content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .main__content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .main__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.download {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    margin-bottom: 20px;
+}
